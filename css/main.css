@@ -117,7 +117,6 @@ html {
   background-color: var(--accent-color);
 }
 
-
 /* Контакты */
 .contacts {
   display: flex;
@@ -280,6 +279,9 @@ html {
 .activity-box:not(:last-child) {
   margin-right: 30px;
 }
+.activity-box img {
+  display: block;
+}
 .activity-list .title {
   position: absolute;
   bottom: 0;
@@ -371,7 +373,7 @@ html {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: var(--icons-color);
+  color: var(--icons-color);
   
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -379,27 +381,35 @@ html {
 .social-link-team:hover,
 .social-link-team:focus {
   background-color: var(--accent-color);
-  fill: var(--title-secondary-text-color);
+  color: var(--title-secondary-text-color);
 }
 
 .icon-instagram {
   width: 20px;
   height: 20px;
+  fill: currentColor;
+  color: inherit;
 }
 
 .icon-twitter {
   width: 20px;
   height: 20px;
+  fill: currentColor;
+  color: inherit;
 }
 
 .icon-facebook {
   width: 20px;
   height: 20px;
+  fill: currentColor;
+  color: inherit;
 }
 
 .icon-linkedin {
   width: 20px;
   height: 20px;
+  fill: currentColor;
+  color: inherit;
 }
 
 
